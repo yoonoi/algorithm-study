@@ -28,4 +28,11 @@
 ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/2b880cee-974c-4dec-9ed9-7a4895d4a915)
 
 11. 깃허브에서 확인 후 bfs 브랜치와 머지하기
+    ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/f4013874-cc61-42d6-84c7-88cf7231e611)
+    ![화면 캡처 2023-08-09 224616](https://github.com/yoonoi/algorithm-study/assets/94058311/1ea533a9-7334-41d1-932e-66d33d76cb8a)
+    ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/475628e9-461b-4e75-91db-7b6a5fa412e7)
+12. 마지막에 delete 개인브랜치 
+
+
+
  
