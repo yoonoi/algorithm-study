@@ -28,4 +28,6 @@
 ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/2b880cee-974c-4dec-9ed9-7a4895d4a915)
 
 11. 깃허브에서 확인 후 bfs 브랜치와 머지하기
+    ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/f4013874-cc61-42d6-84c7-88cf7231e611)
+
  
