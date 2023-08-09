@@ -5,6 +5,8 @@ import java.util.Scanner;
 /**
  * https://st-lab.tistory.com/103
  */
+
+// 구글링한건 저처럼 파일명_ 언더바 붙이면 됩ㄴㅣ당~~~
 public class Yy_1436_ {
 	
 	public static void main(String[] args) {
