@@ -1,7 +1,7 @@
 # algorithm-study
 
-멤버 : 김경희, 김민우, 문홍웅, 이주희, 조윤영
-
+멤버 : 김경희, 김민우, 문홍웅, 이주희, 조윤영  
+  
 ### 문제 push 하는 법
 1. 레포지토리 url 복사 후 클론
 ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/d36cca69-b996-4c99-ba6b-2c7217a530a6)
@@ -31,7 +31,8 @@
     ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/f4013874-cc61-42d6-84c7-88cf7231e611)
     ![화면 캡처 2023-08-09 224616](https://github.com/yoonoi/algorithm-study/assets/94058311/1ea533a9-7334-41d1-932e-66d33d76cb8a)
     ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/475628e9-461b-4e75-91db-7b6a5fa412e7)
-12. 마지막에 delete 개인브랜치 
+12. 마지막에 delete branch(개인 브랜치 삭제)
+![image](https://github.com/yoonoi/algorithm-study/assets/94058311/cc7f9733-27aa-41be-9636-17504f734f2d)
 
 
 
