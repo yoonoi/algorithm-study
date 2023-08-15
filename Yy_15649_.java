@@ -11,12 +11,9 @@ public class Yy_15649 {
 	static int[] selected; 
 	static boolean[] used;
 	
-	// 수열 nPr
-	static void permutation(int n, int r, int depth) {
-		// 종료조건
-		if(depth == m) {
-			
-			for(int i=0; i<r; i++) {
+	static void permutation(int k) {
+		if(k == m) {
+			for(int i=0; i<m; i++) {
 				System.out.print(selected[i] + " ");
 			}
 			System.out.println();
@@ -24,20 +21,15 @@ public class Yy_15649 {
 			return;
 		}
 		
-		// 반복절
 		for(int i=0; i<n; i++) {
-			// 사용 안됐으면 
 			if(!used[i]) {
-				used[i] = true; // 사용해주고
-				selected[depth] = i + 1; // 수열에 넣어준다.
-				
-				permutation(n, r, depth+1);
-				used[i] = false; // 미사용으로 백트래킹
+				selected[k] = i + 1;
+				used[i] = true; 
+				permutation(k+1);
+				used[i] = false;
 			}
 		}
-		
 	}
-	
 	
 	public static void main(String[] args) throws IOException {
 		
@@ -49,6 +41,6 @@ public class Yy_15649 {
 		selected = new int[m]; // m개를 선택해서 수열을 넣을 배열
 		used = new boolean[n]; // 1 ~ n의 수가 사용되었는지 체크
 		
-		permutation(n, m, 0);
+		permutation(0);
 	}
 }
