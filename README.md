@@ -3,37 +3,24 @@
 멤버 : 김경희, 김민우, 문홍웅, 이주희, 조윤영  
   
 ### 문제 push 하는 법
-1. 레포지토리 url 복사 후 클론
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/d36cca69-b996-4c99-ba6b-2c7217a530a6)
 
+#### 새로운 브랜치에 올릴 때(new 알고리즘을 시작할 때)
+1. 브랜치 이름을 확인한다.  
+![image](https://github.com/yoonoi/algorithm-study/assets/94058311/45ef0eae-4ff5-481e-922c-c41043f4a22e)
 
-2. cd Tab하여 클론한 레퍼지토리로 이동 (cd algorithm-study)  
-3. git branch -a 로 전체 브랜치와 현재 브랜치(*) 확인 후,
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/3ea6718c-b230-4925-abe9-725aebf5a0dc)
+2. cmd에서 git pull을 한번 한다.(새로생긴 브랜치를 pull받아오기 위해)
+3. git branch -a를 해서 현재 로컬 브랜치와, 원격 브랜치 이름을 확인한다.  
+![image](https://github.com/yoonoi/algorithm-study/assets/94058311/801dc443-d53e-4ee7-ae9b-ab8f3e8de698)
 
+4. git checkout [원격브랜치이름]을 하면 로컬에 같은 이름의 브랜치가 생성되면서 자동으로 원격 브랜치 내용이 pull된다.  
+![image](https://github.com/yoonoi/algorithm-study/assets/94058311/77452987-8f5e-4abc-b964-ebf507e98c6d)
 
-4. 오늘 풀 문제의 알고리즘 브랜치를 본인 전용으로 로컬에 생성한다.
-      - 예시) git branch bfs_yy
-      - ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/f3ec6a5d-a31f-48be-8001-205eefbc34fc)
-
-6. 문제를 풀어서 형식에 맞게 이름을 작성한 후(ex. Yy_1234) 해당 폴더에 넣어준다.
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/42d11aad-08f6-4e67-9ed4-63335f8de033)
-
-7. git status 로 확인
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/7fbc0380-f807-45fd-93d6-4ba75c12b81f)
-
-8. git add .  
-9. git commit -m "Add / 본인이름두글자"  
-10. git push origin bfs_yy
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/2b880cee-974c-4dec-9ed9-7a4895d4a915)
-
-11. 깃허브에서 확인 후 bfs 브랜치와 머지하기
-    ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/f4013874-cc61-42d6-84c7-88cf7231e611)
-    ![화면 캡처 2023-08-09 224616](https://github.com/yoonoi/algorithm-study/assets/94058311/1ea533a9-7334-41d1-932e-66d33d76cb8a)
-    ![image](https://github.com/yoonoi/algorithm-study/assets/94058311/475628e9-461b-4e75-91db-7b6a5fa412e7)
-12. 마지막에 delete branch(개인 브랜치 삭제)
-![image](https://github.com/yoonoi/algorithm-study/assets/94058311/cc7f9733-27aa-41be-9636-17504f734f2d)
+5. 문제를 풀어 해당 폴더에 넣고 git push 또는 git push origin [브랜치이름]를 하면 원격 브랜치에 push된다.     
+6. merge할 필요없이 푸쉬 완료!  
 
 
 
- 
+#### 기존 브랜치에 추가할 때
+1. git branch -a를 해서 내가 원하는 브랜치에 잘 있는지 확인한다.  
+2. 잘 있으면 위의 5번부터 진행  
+3. 잘 없으면 브랜치를 생성하거나(위의 1번), 기존 브랜치중에 선택(checkout)해서 5번부터 진행  
