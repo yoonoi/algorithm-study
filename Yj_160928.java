@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Yj_160928 {
   static int N, M, res;
   static int start = 1, end = 100;
   static boolean[] visited;
