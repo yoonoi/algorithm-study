@@ -17,10 +17,6 @@ public class Yy_14503 {
 	static int[] dc = {1, 0, -1, 0};
 	
 	static final int WALL = Integer.MAX_VALUE;
-	static final int EAST = 0;
-	static final int SOUTH = 1;
-	static final int WEST = 2;
-	static final int NORTH = 3; 
 	
 	static class Robot {
 		
@@ -129,12 +125,8 @@ public class Yy_14503 {
 				
 				if(!isWall(nextRow, nextCol) && !isClean(nextRow, nextCol))
 					q.offer(new Robot(nextRow, nextCol, direction));
-				
-				else {
+				else 
 					q.offer(new Robot(nowRow, nowCol, direction));
-				}
-
-				// 1번으로 돌아간다.
 			}
 		}
 	}
