@@ -1,5 +1,3 @@
-package divideAndConquer;
-
 import java.util.Scanner;
 
 public class Yy_2740 {
