@@ -2,7 +2,7 @@ package bonus.retry;
 
 import java.util.Scanner;
 
-public class Yy_14503 {
+public class Yy_14503 { 
 	
 	static int n, m;
 	static int[][] board;
