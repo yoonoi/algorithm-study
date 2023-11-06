@@ -24,11 +24,13 @@ public class Yy_9184 {
 			if(a == -1 && b == -1 && c == -1)
 				return;
 			
-			System.out.println(print(a, b, c));
+//			System.out.println(print(a, b, c));
+			System.out.println(printResult(a, b, c));
 		}
 		
 	}
 	
+	// dp만들긔
 	static void makeDp() {
 		
 		for(int i=0; i<=20; i++) {
@@ -47,6 +49,7 @@ public class Yy_9184 {
 		}
 	}
 	
+	// 스트링빌더 이용한 출력 -> 테스트해보니 훨빠름!
 	static String print(int a, int b, int c) {
 		StringBuilder sb = new StringBuilder("w(");
 		sb.append(a).append(", ").append(b).append(", ").append(c).append(") = ");
@@ -66,6 +69,19 @@ public class Yy_9184 {
 			sb.append(dp[a][b][c]);
 		
 		return sb.toString();
+	}
+	
+	// 스트링 이용한 출력
+	static String printResult(int a, int b, int c) {
+		String result = "w(" + a + ", " + b + ", " + c + ") = ";
+		
+		if(a <= 0 || b <= 0 || c <= 0)
+			return result + 1;
+		
+		if(a > 20 || b > 20 || c > 20)
+			return result + dp[20][20][20];
+		
+		return result + dp[a][b][c];
 	}
 
 }
